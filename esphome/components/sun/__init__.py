@@ -132,7 +132,6 @@ CONFIG_SCHEMA = cv.Schema(
 )
 
 
-
 async def to_code(config: ConfigType) -> None:
 
     offset_in_seconds = 0
